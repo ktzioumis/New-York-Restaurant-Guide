@@ -1,0 +1,48 @@
+time series decomp
+    october spike?
+    
+
+inspection scores basics
+    histogram, mean median lines
+
+Community board averages/medians
+    histogram, mean median lines
+    maps
+    
+    
+community board year on year
+    maps
+    histograms
+    sns.distplot
+    heatmap
+
+score/violation heatmap
+    extract most important violation?
+
+critical flag
+    histogram
+    boxplots
+    
+score/prev_score
+    scatter
+    correlation
+    critical/prev_critical
+    correlation
+    
+cuisine style
+    histogram
+
+cb count/score 
+    scatter
+    
+is_chain
+    boxplots
+    2-sided t-test
+
+
+TODO:
+    learning model - manhattan only (class or regress?(both?))
+        features from location,restaurant,past (3 cats)
+            location - cb score ave, median, % same cuis
+            rest - style ave, median, is_chain
+            past - prev_score,prev_crit,
