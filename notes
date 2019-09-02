@@ -2,42 +2,45 @@ time series decomp
     october spike?
     
 
-inspection scores basics
-    histogram, mean median lines
+COMUNITY BOARD INVESTIGATION NOTEBOOK
+                Community board averages/medians
+                    histogram, mean median lines
+                    maps
 
-Community board averages/medians
-    histogram, mean median lines
-    maps
-    
-    
-community board year on year
-    maps
-    histograms
-    sns.distplot
-    heatmap
+                cb count/score 
+                    scatter - cluster
 
-score/violation heatmap
-    extract most important violation?
+                community board year on year
+                    maps
+                    histograms
+                    sns.distplot
+                    heatmap
 
-critical flag
-    histogram
-    boxplots
+INSPECTION FIRST IMPRESSIONS NOTEBOOK
+                inspection scores basics
+                histogram, mean median lines
     
-score/prev_score
-    scatter
-    correlation
-    critical/prev_critical
-    correlation
-    
-cuisine style
-    histogram
+                score/violation heatmap
+                    extract most important violation?
 
-cb count/score 
-    scatter
+                critical flag
+                    histogram
+                    boxplots
+
+TWICE NOTEBOOK 
+            score/prev_score
+             scatter
+              correlation
+              critical/prev_critical
+              correlation
     
-is_chain
-    boxplots
-    2-sided t-test
+CUISINE STYLE NOTEBOOK
+            cuisine style averages/medians
+                histogram
+
+            is_chain
+                boxplots
+                2-sided t-test
 
 
 TO DO:
