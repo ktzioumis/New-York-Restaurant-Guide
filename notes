@@ -40,7 +40,7 @@ is_chain
     2-sided t-test
 
 
-TODO:
+TO DO:
     learning model - manhattan only (class or regress?(both?))
         features from location,restaurant,past (3 cats)
             location - cb score ave, median, % same cuis
