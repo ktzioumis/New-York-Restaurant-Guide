@@ -10,11 +10,11 @@ COMUNITY BOARD INVESTIGATION NOTEBOOK
                 cb count/score 
                     scatter - cluster
 
-                community board year on year
-                    maps
-                    histograms
-                    sns.distplot
-                    heatmap
+          XX         community board year on year
+          XX            maps
+          XX            histograms
+          XX            sns.distplot
+          XX            heatmap
 
 INSPECTION FIRST IMPRESSIONS NOTEBOOK
                 inspection scores basics
