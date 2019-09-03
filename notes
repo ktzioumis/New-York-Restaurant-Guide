@@ -49,3 +49,21 @@ TO DO:
             location - cb score ave, median, % same cuis
             rest - style ave, median, is_chain
             past - prev_score,prev_crit,
+            
+     desired columns:score [y]
+                     cb ave
+                     cb std
+                     cb count rests/insps
+                     cb same cuis % - hard
+                     cuis ave
+                     cuis std
+                     cuis count
+                     is_chain
+                     prev_score
+                     prev_crit
+                     date?
+            
+            
+            
+            
+            
