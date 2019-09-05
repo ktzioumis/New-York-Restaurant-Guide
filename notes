@@ -53,8 +53,8 @@ TO DO:
      desired columns:score [y]
                      cb ave
                      cb std
-                     cb count rests/insps
-                     cb same cuis % - hard
+                     cb count (rests/insps=same)
+                 XX  cb same cuis % - hard
                      cuis ave
                      cuis std
                      cuis count
