@@ -33,10 +33,10 @@ A score of 13 points or less results in an A rating. Receiving Critical violatio
 A detailed description of all Critical and General Violations can be found here: [The Blue Book](https://www1.nyc.gov/assets/doh/downloads/pdf/rii/blue-book.pdf)
 
 ## The Data
-The New York City Open Data Project records of every violation citation up to three years prior to the most recent inspection for all active restaurants within the city
-source : https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j
+The New York City Open Data Project records of every violation citation up to three years prior to the most recent inspection for all active restaurants within the city<br>
+source : https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j<br>
 More information on this data:
-https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/About_NYC_Restaurant_Inspection_Data_on_NYC_OpenData_092418.docx
+https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/About_NYC_Restaurant_Inspection_Data_on_NYC_OpenData_092418.docx<br>
 https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/RestaurantInspectionDataDictionary_09242018.xlsx
 
 Data for this project was pulled on the 17th of August 2019 and is up to that date. 
