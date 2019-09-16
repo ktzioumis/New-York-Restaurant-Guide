@@ -42,7 +42,7 @@ https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/RestaurantIns
 
 Data for this project was pulled on the 17th of August 2019 and is up to that date. 
 
-Github Notebook: https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Inspection Dataframe construction.ipynb
+Github Notebook: https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Inspection_Dataframe_construction.ipynb
 
 The full dataset records individual violation citations for all Dept of Health inspections including those that are not related to food safety and are not graded/scored. Each violation is a row within the dataset recording the identifying the violation code and description  and features for the restaurant (CAMIS:unique identifier, name, location, cuisine type) and the inspection (type of inspection, date, total inspection score). 
 To perform Exploratory Data Analysis the data was cleaned in the following steps:
@@ -67,7 +67,7 @@ Some cyclical effects on inspection average were observed but the time scale is 
 All further analysis was performed based on this initial inspection data
 
 ## Initial Inspection Analysis
-Github Notebook https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Initial inspections analysis.ipynb
+Github Notebook https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Initial_inspections_analysis.ipynb
 
 <img src='images/init_ins_dist.PNG'>
 
@@ -137,8 +137,8 @@ https://en.wikipedia.org/wiki/Community_boards_of_New_York_City
 
 #### Community Board
 Github Notebooks: 
-https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Restaurant Data Isolation.ipynb
-https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Community Board Investigation.ipynb
+https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Restaurant_Data_Isolation.ipynb
+https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Community_Board_Investigation.ipynb
 
 
 <img src='images/rest_density_edit.PNG'> 
@@ -165,7 +165,7 @@ On the Scatter plot there is a visible cluster of points with high restaurant co
 Unfortuantely it doesn't appear that the best food safety practices are in the most restaurant heavy neighbourhoods. 
 
 ### Restaurant Type
-Github Notebook https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Restaurant Type.ipynb
+Github Notebook https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Restaurant_Type.ipynb
 
 #### Cuisine Description
 
@@ -228,7 +228,7 @@ Poor inspection performance and fines do not necessarily teach an establishment 
 Machine Learning was used to create an A grade predictor. A matrix was created using the features explored above for Type, Location and History. The problem was approached in 3 different fashions outlined below. All are binary Classifier models for an A grade
 
 ### Categorical Matrix
-Github Notebook https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Sparse matrix classifier 3 -prev_score.ipynb
+Github Notebook https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Sparse_matrix_classifier_3_prev_score.ipynb
 
 The features for Cuisine Description and Community Board are one-hot encoded from the categorical features to create a sparse binary matrix. Existing binary feature is_chain is also added and the features for previous inspection score and previous inspection which are continuously numerical.
 
@@ -237,7 +237,7 @@ An baseline is created using an ADABoost Classifier  that achieves an accuracy o
 <img src='images/sparse_best_conf.PNG'>
 
 ### Summary Statistics 
-Github Notebook https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Summary Stats Classifier Model 2 -prev_score.ipynb
+Github Notebook https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Summary_Stats_Classifier_Model_2_prev_score.ipynb
 
 Using a different approach from the above model, categorical features from the Cuisine Description and Community board are substituted for the summary statistics for each categorical entry. The Cuisine Description and Community Board mean standard deviation and overall count for each entry are used. The numerical features for previous score and previous critical violations are also used as well as the is_chain binary feature. This creates a significantly smaller matrix than the one used above reducing the number of features from 156 to 9. 
 
@@ -252,7 +252,7 @@ The Classifier relies previous score the most heavily followed by the cuisine st
 <img src='images/feature_importance.PNG'>
 
 ### Manhattan Only Statistics
-Github Notebook https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Manhattan model Classifier 2 prev_score.ipynb
+Github Notebook https://github.com/ktzioumis/New-York-Restaurant-Guide/blob/master/Manhattan_model_Classifier_2_prev_score.ipynb
 
 The summary statistics method above was also used on smaller subsection of the restaurant inspection data representing only Manhattan. The same level of accuracy was possible again using a resampled and scaled feature matrix and a grid-search with 3 fold cross validation to optimise an XGBoost Classifier. This again achieved notable improvements in training time but the Manhattan trained model performed very poorly when classifying the full dataset with other boroughs included. The use of Manhattan as a representative sample appears to be a flawed premise and I would caution against extrapolating any model trained only on Manhattan data to a broader geographical area.
 
