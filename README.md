@@ -210,6 +210,8 @@ Score and previous score correlated more weakly than expected at just 0.23. This
 
 <img src='images/score_prev_scat.PNG'>
 
+The empty space in the top right of the graph thankfully indicates that dramatically bad scores do not happen again
+
 <img src = 'images/improvement.PNG'>
 
 The most common scenario is for an A rated restaurant to maintain its A, however, more than a third of all inspections result in a change of grade in either direction
