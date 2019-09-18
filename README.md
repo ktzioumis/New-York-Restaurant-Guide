@@ -289,4 +289,4 @@ Improvements to the classifier model my be possible through a number of means:
     - Day of week effects may be evident, inspectors may be prone to Monday-itis or be mentally checked out on a Friday, however this may not be of use to the predictor as there is no way of knowing advance the day of the week an inspector will arrive on
 - Variable inspection history. This model requires the existence of at least one prior inspection but does not consider further back than that. To be able account for new restaurants with no inspection history would make this a must-use tool for anyone looking to open an restaurant in New York. Conversely, using multiple prior inspections may improve accuracy for well established restaurants
 - Vermin-by-distance. Using this data it would also be possible to locate clusters of vermin related violations and allow the city or restauranteurs to better take steps to prevent infestation.
-
+- Deep Learning. Further application of a deep learning neural network may be able to make gains in accuracy
